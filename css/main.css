@@ -280,12 +280,23 @@ Screen - Game
    padding-left: 2px;
 }
 
+#share
+{
+   position: absolute;
+   opacity: 1;
+   top: 205px;
+   left: 82px;
+   height: 115px;
+   width: 155px;
+   cursor: pointer;
+}
+
 #replay
 {
    position: absolute;
    opacity: 0;
    top: 205px;
-   left: 61px;
+   left: 7px;
    height: 115px;
    width: 70px;
    cursor: pointer;
