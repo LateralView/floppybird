@@ -34,19 +34,19 @@
 
 @-webkit-keyframes animSky {
    0% { background-position: 0px 100%; }
-   100% { background-position: -275px 100%; }
+   100% { background-position: -828px 100%; }
 }
 @-moz-keyframes animSky {
    0% { background-position: 0px 100%; }
-   100% { background-position: -275px 100%; }
+   100% { background-position: -828px 100%; }
 }
 @-o-keyframes animSky {
    0% { background-position: 0px 100%; }
-   100% { background-position: -275px 100%; }
+   100% { background-position: -828px 100%; }
 }
 @keyframes animSky {
    0% { background-position: 0px 100%; }
-   100% { background-position: -275px 100%; }
+   100% { background-position: -828px 100%; }
 }
 
 @-webkit-keyframes animBird {
@@ -159,8 +159,8 @@ Screen - Game
    background-position: 0px 100%;
    background-color: #EAFEFF;
    
-   -webkit-animation: animSky 7s linear infinite;
-   animation: animSky 7s linear infinite;
+   -webkit-animation: animSky 12s linear infinite;
+   animation: animSky 12s linear infinite;
 }
 
 #flyarea
