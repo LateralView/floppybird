@@ -51,19 +51,19 @@
 
 @-webkit-keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px 6px; }
 }
 @-moz-keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px 6px; }
 }
 @-o-keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px 6px; }
 }
 @keyframes animBird {
    from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+   to { background-position: 0px 6px; }
 }
 
 @-webkit-keyframes animPipe {
@@ -157,7 +157,7 @@ Screen - Game
    background-image: url('../assets/sky.png');
    background-repeat: repeat-x;
    background-position: 0px 100%;
-   background-color: #4ec0ca;
+   background-color: #EAFEFF;
    
    -webkit-animation: animSky 7s linear infinite;
    animation: animSky 7s linear infinite;
@@ -193,7 +193,7 @@ Screen - Game
    background-image: url('../assets/land.png');
    background-repeat: repeat-x;
    background-position: 0px 0px;
-   background-color: #ded895;
+   background-color: #CEF3F9;
    
    -webkit-animation: animLand 2516ms linear infinite;
    animation: animLand 2516ms linear infinite;
@@ -244,8 +244,8 @@ Screen - Game
 {
    position: absolute;
    opacity: 0;
-   top: 114px;
-   left: 32px;
+   top: 88px;
+   left: 45px;
    width: 44px;
    height: 44px;
 }
@@ -253,7 +253,7 @@ Screen - Game
 #currentscore
 {
    position: absolute;
-   top: 105px;
+   top: 85px;
    left: 107px;
    width: 104px;
    height: 14px;
@@ -268,7 +268,7 @@ Screen - Game
 #highscore
 {
    position: absolute;
-   top: 147px;
+   top: 127px;
    left: 107px;
    width: 104px;
    height: 14px;
@@ -312,11 +312,11 @@ Screen - Game
 {
    position: absolute;
    width: 34px;
-   height: 24px;
+   height: 60px;
    background-image: url('../assets/bird.png');
    
-   -webkit-animation: animBird 300ms steps(4) infinite;
-   animation: animBird 300ms steps(4) infinite;
+   -webkit-animation: animBird 600ms steps(4) infinite;
+   animation: animBird 600ms steps(4) infinite;
 }
 
 .pipe

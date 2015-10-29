@@ -34,7 +34,7 @@ var jump = -4.6;
 var score = 0;
 var highscore = 0;
 
-var pipeheight = 90;
+var pipeheight = 130;
 var pipewidth = 52;
 var pipes = new Array();
 
@@ -42,11 +42,11 @@ var replayclickable = false;
 
 //sounds
 var volume = 30;
-var soundJump = new buzz.sound("assets/sounds/sfx_wing.ogg");
-var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");
-var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
-var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");
-var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");
+var soundJump = new buzz.sound("assets/sounds/wing.ogg");
+var soundScore = new buzz.sound("assets/sounds/point.ogg");
+var soundHit = new buzz.sound("assets/sounds/hit.ogg");
+var soundDie = new buzz.sound("assets/sounds/die.ogg");
+var soundSwoosh = new buzz.sound("assets/sounds/done.ogg");
 buzz.all().setVolume(volume);
 
 //loops
@@ -147,7 +147,7 @@ function startGame()
 function updatePlayer(player)
 {
    //rotation
-   rotation = Math.min((velocity / 10) * 90, 90);
+   rotation = Math.min((velocity / 10) * 10, 10);
    
    //apply rotation and position
    $(player).css({ rotate: rotation, top: position });
